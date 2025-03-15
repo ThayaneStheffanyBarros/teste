@@ -1,4 +1,5 @@
 // hello.ts
 function greet(name: string): string {
-  return `Olá, ${name}!`;
+  console.log("Chamando a função greet!");
+return `Olá, ${name}!`;
 }
